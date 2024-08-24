@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/264684348b.js" crossorigin="anonymous"></script>
+   
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2 class="logo"><span>My</span>Portfolio </h2> 
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                
+            </nav>
+          <div id="firstleft">
+              <div class="header-text">
+                  <p><strong><i>Tech-Explorer</i></strong></p>
+                  <h1>HI, I'm <span> Shakeel</span><br>  I am passionate <br>
+                    <span id="element">Web Developer</span>
+                </h1>
+            </div>
+            <div class="image">
+                <img src="images/developer.png" >
+            </div>
+
+        </div>
+        </div>
+    </div>
+    <!-- -----About info -->
+    <div id="about">
+        <div class="conatainer">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/sh2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br><br>
+                    <big><strong>Name:</strong></big>Mohammed Shakeel <br>
+                    <big><strong>Age:</strong></big>20<br>
+                    <p>I'm , currently pursuing a Bachelor of Computer Application (BCA) at Bearys Institute of Emerging Sciences, affiliated with Mangalore University. I possess a strong enthusiasm for exploring new dimensions within the Computer application filed  and am committed to expanding my expertise in this domain.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML CSS JavaScript</span><br>Proficient in creating web content using HTML,CSS and JavaScript, enabling the design of simple and effective webpages</li>
+                            <li><span>Java</span><br>Skilled in core Java programming, proficiently developing applications with a focus on object-oriented concepts.</li>
+                            <li><span>C Prgramming</span><br>Proficient in basic C programming, capable of implementing fundamental algorithms and logical structures</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Fresher</span><br>Looking for Challenging position</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-2025</span><br>Currently studying BCA at Bearys Institute Emerging Sciences</li>
+                            <li><span>2020</span><br>PUC from Carmel Composite Pu Colloge</li>
+                            <li><span>2018</span><br>SSLC from Best english Medium school</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------Projects---- -->
+   <div id="project">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="pro-list">
+            <div class="pro">
+                <img src="images/atm.png">
+                <div class="layer">
+                    <h3>Bank Management system</h3>
+                    <p>Experience banking convenience with our java Swing Bank Management System.Seamlessly manage accounts,Change pin securely,and enjoy fast cash withdrawals.Check your balance and track transactions with ease.Simplify deposits and explore financial management,all in one  user-friendly interface.Click below link for my source code</p>
+                    <a href="https://github.com/shakeel071/bank-management-system/tree/master/src"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="images/quiz.png">
+                <div class="layer">
+                    <h3>Quiz Application</h3>
+                    <p>Experience learning in an engaging way with our Quiz Application.Developed using Java Swing,this platform offers multiple-choice questions,life-line,scores,etc.The user friendly interface guarantees seamless experience.Click below link for my source code</p>
+                    <a href="https://github.com/shakeel071/Quiz-Application"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="images/chat.png">
+                <div class="layer">
+                    <h3>Chatting Application</h3>
+                    <p>Connect seamlessly with our Java swing Chat Application.Experience real-time messaging through a user-friendly client-server architecture,fostering instant communication.Click below link for my source code</p>
+                    <a href="https://github.com/shakeel071/Chatting-Apllication"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+   </div>
+   
+    <!-- --------Resume------ -->
+    <div id="resume">
+        <div class="container">
+            <h1 class="sub-title">Resume</h1>
+            <a href="images/resume.pdf" download class="btn btn2">Download CV</a>
+        </div>
+    </div>
+
+<!-- --------------------Contact details-------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i> shakeelmohammed474@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone-volume"></i> 7483829206</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://linkedin.com/in/mohammed-shakeel-49ba10288"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                </div>
+                
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- writting copyright statement -->
+    <div class="copyright">
+        <p>Copyright &copy; www.shakeelportfolio.com | All rights reserved</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+</body>
+</html>
+
